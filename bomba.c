@@ -1,6 +1,3 @@
-// apesar de usar a ferramenta SLEEP, não consegui ver o tempo correndo corretamente. 
-
-
 #include <stdio.h>
 #include <locale.h>
 #include <windows.h>
@@ -14,11 +11,12 @@
     for(i=10;i>0;i--){
         system("cls");
         printf("%d",i);
+        sleep(1);
                   
     }
     
     system("cls");
-    printf("BUUUUUM!");
+    printf("BUM");
      
 
      sleep(1000);
